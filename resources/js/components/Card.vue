@@ -51,7 +51,7 @@ export default {
         fetchJobs() {
             this.loading = true
 
-            Nova.request().get('/nova-vendor/llaski/nova-scheduled-jobs/jobs').then((response) => {
+            Nova.request().get('/nova-vendor/nikhilbaby/nova-scheduled/jobs').then((response) => {
                 this.loading = false
                 this.jobs = response.data
 

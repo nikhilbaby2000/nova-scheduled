@@ -95,7 +95,7 @@ export default {
         
         confirmDispatchJob() {
             const job = this.dispatchJob
-            Nova.request().post('/nova-vendor/llaski/nova-scheduled-jobs/dispatch-job', { command: job.command })
+            Nova.request().post('/nova-vendor/nikhilbaby/nova-scheduled/dispatch-job', { command: job.command })
                 .then((response) => {                    
                     this.confirmDispatchJobModal = false
                     this.$toasted.show('The job was dispatched!', { type: 'success' })
@@ -108,7 +108,7 @@ export default {
         fetchJobs() {
             this.loading = true
 
-            Nova.request().get('/nova-vendor/llaski/nova-scheduled-jobs/jobs').then((response) => {
+            Nova.request().get('/nova-vendor/nikhilbaby/nova-scheduled/jobs').then((response) => {
                 this.loading = false
                 this.jobs = response.data
 

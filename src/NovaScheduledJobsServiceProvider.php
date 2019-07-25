@@ -39,7 +39,7 @@ class NovaScheduledJobsServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova'])
-            ->prefix('nova-vendor/llaski/nova-scheduled-jobs')
+            ->prefix('nova-vendor/nikhilbaby/nova-scheduled')
             ->group(__DIR__ . '/../routes/api.php');
     }
 
