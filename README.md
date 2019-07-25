@@ -14,7 +14,7 @@
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require llaski/nova-scheduled-jobs
+composer require nikhilbaby/nova-scheduled
 ```
 
 To setup the tool, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
@@ -70,6 +70,7 @@ If you discover any security related issues, please email larry.laski@gmail.com 
 ## Credits
 
 - [Larry Laski](https://github.com/llaski)
+- [Nikhil Baby](https://github.com/nikhilbaby2000)
 - [All Contributors](../../contributors)
 
 ## License
