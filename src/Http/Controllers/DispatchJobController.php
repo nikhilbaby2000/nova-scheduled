@@ -3,6 +3,7 @@
 namespace Nick\NovaScheduledJobs\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 use Nick\NovaScheduledJobs\Rules\JobExist;
 
 class DispatchJobController
