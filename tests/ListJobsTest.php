@@ -14,7 +14,7 @@ class ListJobsTest extends TestCase
     /** @test */
     public function itReturnsAnEmptyArrayIfThereAreNoJobsScheduled()
     {
-        $response = $this->getJson('nova-vendor/llaski/nova-scheduled-jobs/jobs');
+        $response = $this->getJson('nova-vendor/nikhilbaby/nova-scheduled/jobs');
 
         $response->assertStatus(200);
         $response->assertJson([]);
@@ -50,7 +50,7 @@ class ListJobsTest extends TestCase
         ]);
         app()->instance('Illuminate\Contracts\Console\Kernel', $kernel);
 
-        $response = $this->getJson('nova-vendor/llaski/nova-scheduled-jobs/jobs');
+        $response = $this->getJson('nova-vendor/nikhilbaby/nova-scheduled/jobs');
 
         $response->assertStatus(200);
         $response->assertJson([

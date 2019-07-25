@@ -13,7 +13,7 @@ class DispatchJobTest extends TestCase
     {
         Bus::fake();
 
-        $this->postJson('nova-vendor/llaski/nova-scheduled-jobs/dispatch-job', [
+        $this->postJson('nova-vendor/nikhilbaby/nova-scheduled/dispatch-job', [
                 'command' => UpdateOrders::class,
             ])->assertStatus(200);
 
@@ -25,7 +25,7 @@ class DispatchJobTest extends TestCase
     {
         Bus::fake();
 
-        $this->postJson('nova-vendor/llaski/nova-scheduled-jobs/dispatch-job', [
+        $this->postJson('nova-vendor/nikhilbaby/nova-scheduled/dispatch-job', [
                 'command' => UpdateOrdersWithDependencies::class,
             ])->assertStatus(200);
 
