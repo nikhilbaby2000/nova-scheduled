@@ -1,6 +1,6 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Rules;
+namespace Nick\NovaScheduledJobs\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

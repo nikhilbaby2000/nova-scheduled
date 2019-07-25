@@ -1,13 +1,13 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Tests\Fixtures\Jobs;
+namespace Nick\NovaScheduledJobs\Tests\Fixtures\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Llaski\NovaScheduledJobs\Tests\Fixtures\Processors\FakeOrderProcessor;
+use Nick\NovaScheduledJobs\Tests\Fixtures\Processors\FakeOrderProcessor;
 
 class UpdateOrdersWithDependencies implements ShouldQueue
 {

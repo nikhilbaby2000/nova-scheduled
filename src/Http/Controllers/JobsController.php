@@ -1,10 +1,10 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Http\Controllers;
+namespace Nick\NovaScheduledJobs\Http\Controllers;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Contracts\Console\Kernel;
-use Llaski\NovaScheduledJobs\Schedule\Factory as ScheduleFactory;
+use Nick\NovaScheduledJobs\Schedule\Factory as ScheduleFactory;
 
 class JobsController
 {

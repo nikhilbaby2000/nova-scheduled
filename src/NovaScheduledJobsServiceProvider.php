@@ -1,6 +1,6 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs;
+namespace Nick\NovaScheduledJobs;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

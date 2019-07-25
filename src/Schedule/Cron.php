@@ -1,6 +1,6 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Schedule;
+namespace Nick\NovaScheduledJobs\Schedule;
 
 use Carbon\Carbon;
 use Cron\CronExpression;

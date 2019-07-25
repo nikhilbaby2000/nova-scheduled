@@ -1,12 +1,12 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Tests;
+namespace Nick\NovaScheduledJobs\Tests;
 
 use Cron\CronExpression;
 use Illuminate\Support\Carbon;
-use Llaski\NovaScheduledJobs\Schedule\Cron;
-use Llaski\NovaScheduledJobs\Tests\Fixtures\Jobs\UpdateOrders;
-use Llaski\NovaScheduledJobs\Vendor\CronSchedule;
+use Nick\NovaScheduledJobs\Schedule\Cron;
+use Nick\NovaScheduledJobs\Tests\Fixtures\Jobs\UpdateOrders;
+use Nick\NovaScheduledJobs\Vendor\CronSchedule;
 
 class ListJobsTest extends TestCase
 {
@@ -23,7 +23,7 @@ class ListJobsTest extends TestCase
     /** @test */
     public function itReturnsAListOfScheduledJobs()
     {
-        $kernel = app('Llaski\NovaScheduledJobs\Tests\Fakes\Kernel', [
+        $kernel = app('Nick\NovaScheduledJobs\Tests\Fakes\Kernel', [
             'scheduledJobs' => [
                 [
                     'command' => 'cache:clear',

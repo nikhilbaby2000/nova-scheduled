@@ -1,6 +1,6 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Schedule;
+namespace Nick\NovaScheduledJobs\Schedule;
 
 use Illuminate\Console\Parser;
 use Illuminate\Contracts\Console\Kernel;

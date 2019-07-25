@@ -1,6 +1,6 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs;
+namespace Nick\NovaScheduledJobs;
 
 use Laravel\Nova\Card;
 

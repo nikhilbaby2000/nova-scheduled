@@ -1,6 +1,6 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Tests\Fixtures\Jobs;
+namespace Nick\NovaScheduledJobs\Tests\Fixtures\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

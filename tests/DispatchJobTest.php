@@ -1,10 +1,10 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Tests;
+namespace Nick\NovaScheduledJobs\Tests;
 
 use Illuminate\Support\Facades\Bus;
-use Llaski\NovaScheduledJobs\Tests\Fixtures\Jobs\UpdateOrders;
-use Llaski\NovaScheduledJobs\Tests\Fixtures\Jobs\UpdateOrdersWithDependencies;
+use Nick\NovaScheduledJobs\Tests\Fixtures\Jobs\UpdateOrders;
+use Nick\NovaScheduledJobs\Tests\Fixtures\Jobs\UpdateOrdersWithDependencies;
 
 class DispatchJobTest extends TestCase
 {

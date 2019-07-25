@@ -28,7 +28,7 @@ public function tools()
 {
     return [
         // ...
-        new \Llaski\NovaScheduledJobs\NovaScheduledJobsTool,
+        new \Nick\NovaScheduledJobs\NovaScheduledJobsTool,
     ];
 }
 ```
@@ -44,7 +44,7 @@ public function cards()
 {
     return [
         // ...
-        new \Llaski\NovaScheduledJobs\NovaScheduledJobsCard,
+        new \Nick\NovaScheduledJobs\NovaScheduledJobsCard,
     ];
 }
 ```

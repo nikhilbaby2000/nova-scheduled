@@ -1,8 +1,8 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Schedule;
+namespace Nick\NovaScheduledJobs\Schedule;
 
-use Llaski\NovaScheduledJobs\Vendor\CronSchedule;
+use Nick\NovaScheduledJobs\Vendor\CronSchedule;
 
 abstract class Event
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Vendor;
+namespace Nick\NovaScheduledJobs\Vendor;
 
 /*
  * Credit to https://gist.github.com/m4tthumphrey/8236756

@@ -1,9 +1,9 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Http\Controllers;
+namespace Nick\NovaScheduledJobs\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Llaski\NovaScheduledJobs\Rules\JobExist;
+use Nick\NovaScheduledJobs\Rules\JobExist;
 
 class DispatchJobController
 {

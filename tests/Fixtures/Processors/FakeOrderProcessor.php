@@ -1,6 +1,6 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Tests\Fixtures\Processors;
+namespace Nick\NovaScheduledJobs\Tests\Fixtures\Processors;
 
 class FakeOrderProcessor {
 

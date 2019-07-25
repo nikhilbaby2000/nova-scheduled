@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Llaski\NovaScheduledJobs\Http\Controllers\JobsController;
-use Llaski\NovaScheduledJobs\Http\Controllers\DispatchJobController;
+use Nick\NovaScheduledJobs\Http\Controllers\JobsController;
+use Nick\NovaScheduledJobs\Http\Controllers\DispatchJobController;
 
 /*
 |--------------------------------------------------------------------------

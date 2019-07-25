@@ -1,9 +1,9 @@
 <?php
 
-namespace Llaski\NovaScheduledJobs\Tests;
+namespace Nick\NovaScheduledJobs\Tests;
 
 use Illuminate\Support\Facades\Route;
-use Llaski\NovaScheduledJobs\NovaScheduledJobsServiceProvider;
+use Nick\NovaScheduledJobs\NovaScheduledJobsServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
