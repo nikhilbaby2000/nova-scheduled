@@ -758,6 +758,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             Nova.request().post('/nova-vendor/nikhilbaby/nova-scheduled/dispatch-job', { command: job.command }).then(function (response) {
                 _this.confirmDispatchJobModal = false;
                 _this.$toasted.show('The job was dispatched!', { type: 'success' });
+
+                if (response) {
+                    _this.$toasted.show('Response: <br>' + response.data, { type: 'success' });
+                }
             }).catch(function (error) {
                 _this.confirmDispatchJobModal = false;
                 _this.$toasted.show(error.response.data.message, { type: 'error' });

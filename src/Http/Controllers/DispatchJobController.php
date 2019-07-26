@@ -18,7 +18,7 @@ class DispatchJobController
         $command = array_first(explode(' ', $request->get('command')));
 
         if (in_array($command, array_keys(Artisan::all()))) {
-            return exec("nohup {$_SERVER['_']} {$_SERVER['PWD']} {$command}");
+            return exec("nohup php {$_SERVER['DOCUMENT_ROOT']}/../artisan {$command}");
         }
 
         $data = $request->validate([

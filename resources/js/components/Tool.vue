@@ -54,7 +54,7 @@
                         @confirm="confirmDispatchJob"
                         @close="confirmDispatchJobModal = false"
                         :command="dispatchJob.command"
-                    />                    
+                    />
                 </transition>
             </portal>
         </card>
@@ -97,8 +97,13 @@ export default {
             const job = this.dispatchJob
             Nova.request().post('/nova-vendor/nikhilbaby/nova-scheduled/dispatch-job', { command: job.command })
                 .then((response) => {                    
-                    this.confirmDispatchJobModal = false
-                    this.$toasted.show('The job was dispatched!', { type: 'success' })
+                    this.confirmDispatchJobModal = false;
+                    this.$toasted.show('The job was dispatched!', { type: 'success' });
+
+                    if (response) {
+                        this.$toasted.show('Response: <br>' + response.data, { type: 'success' })
+                    }
+
                 }).catch((error) => {
                     this.confirmDispatchJobModal = false
                     this.$toasted.show(error.response.data.message, { type: 'error' })
